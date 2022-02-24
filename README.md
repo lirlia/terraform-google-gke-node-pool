@@ -28,7 +28,7 @@ NodePool が再作成される際のフローは以下のとおりです。
 ## example
 
 ```terraform
-module "nodepool_app" {
+module "nodepool" {
   source             = "this module path"
   project_id         = "YOUR-GCP-PROJECT-ID"
   prefix             = "YOUR-NODEPOOL-PREFIX"
