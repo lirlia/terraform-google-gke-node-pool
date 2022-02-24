@@ -33,4 +33,5 @@ module "nodepool_app" {
   project_id         = "YOUR-GCP-PROJECT-ID"
   prefix             = "YOUR-NODEPOOL-PREFIX"
   cluster_name       = "YOUR-CLUSTER-NAME"
+}
 ```
